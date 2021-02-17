@@ -1,0 +1,20 @@
+{
+  "name": "umd-viewer",
+  "version": "1.0.0",
+  "description": "A Webcomponent to embed a UMD Viewer in any web app or website",
+  "main": "umd-viewer.js",
+  "dependencies": {
+    "markdown-it": "12.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umd-project/umd-viewer.git"
+  },
+  "author": "RmR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umd-project/umd-viewer/issues"
+  },
+  "homepage": "https://github.com/umd-project/umd-viewer#readme"
+}
