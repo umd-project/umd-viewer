@@ -3,7 +3,7 @@
 // creates an markdown component
 //
 // imports
-import MarkdownIt from 'markdown-it';
+import MarkdownIt from './markdown-it.min.js';
 
 //
 // create a template
@@ -123,6 +123,5 @@ export class UmdComponentMd extends HTMLElement {
     }
 }
 
-const md = new MarkdownIt();
 // register component 
 window.customElements.define('umd-component-md', UmdComponentMd);
